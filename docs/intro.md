@@ -2,46 +2,29 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Présentation de la classe inversée du cours **Introduction à la programmation** du [DAEU SONATE](https://daeu-sonate.fr/).
 
-## Getting Started
+## Classe inversée
 
-Get started by **creating a new site**.
+Le principe de cette activité est de travailler en groupe (de 3 ou 4 personnes) sur un sujet donné.
+La **classe inversée** sera abrégée par le terme **CI** dans ce document.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Le classe inversée se déroule sur une période précise et s'organise de la sorte :
+- une visio de lancement au début de la période de CI
+- un temps de conception pour les étudiants avec une date de rendu
+- une visio de fin de CI avec un retour sur le travail produit
 
-### What you'll need
+## Objectifs
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+La CI dans du cours **Introduction à la programmation** à 3 objectifs :
+- vous faire employer les différentes notions vues durant la formation
+- vous faire découvrir les bases du développement web
+- vous faire découvrir des outils de collaboration pour la programmation
 
-## Generate a new site
+Le travail à effectuer à pour sujet la création d'un jeu du pendu dans un environnement web.
 
-Generate a new Docusaurus site using the **classic template**.
+Pour ce faire, vous disposerez d'un mini-cahier des charges décrivant les éléments à respecter ainsi que les choix technologiques imposés. Le but de ce travail est de réemployer vos connaissances en programmation avec Python dans un contexte nouveau (format web).
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Pour ce faire, vous serez guidés par la suite de ce document pour parvenir à la mise en place d'un programme visualisable dans votre navigateur web.
