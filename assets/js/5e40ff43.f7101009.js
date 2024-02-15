@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprogrammation_ci_docs=self.webpackChunkprogrammation_ci_docs||[]).push([[8542],{5865:o=>{o.exports=JSON.parse('{"permalink":"/programmation-ci-docs/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
