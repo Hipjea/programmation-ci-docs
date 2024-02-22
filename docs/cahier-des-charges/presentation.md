@@ -34,6 +34,6 @@ Le principe du jeu à développer est le suivant :
 | **Mot à deviner** | Chacun des mots à deviner provient d'un fichier *dictionnaire* qui est fourni au développeur. |
 | **Mot indice** | Le mot à deviner doit être présenté sous forme d'indices au joueur. Par exemple, si le mot est `âge`, on affichera `_ _ _` au joueur. |
 | **Vies** | Le joueur dispose de 5 vies par partie. Lorsque le compteur arrive à 0, la partie est perdue. Chaque tentative infructueuse retire 1 vie. |
-| **Zone de saisie** | Lorsque le joueur démarre une partie, il dispose d'une zone de saisie pour envoyer la lettre qu'il souhaite deviner. |
+| **Interface de saisie** | Lorsque le joueur démarre une partie, il dispose d'une interface de saisie pour envoyer la lettre qu'il souhaite deviner. Idéalement, on lui propose une bouton par lettre de l'alphabet, sur lesquels il peut cliquer. |
 | **Indices** | Lorsque le joueur trouve une lettre faisant partie du mot à devinier, on l'indique dans le mot indice en remplaçant le `_` par le lettre trouvée. Par exemple, si le mot est `âge`, on affichera `_ g _` au joueur qui à rentré la lettre `g`.
 | **Écran de fin** | La partie est terminée lorsque le nombre de vies tombe à 0 ou si le mot à deviner est trouvé. On doit afficher si la partie est réussie ou perdue à l'utilisateur et lui proposer de lancer une nouvelle partie. |
