@@ -49,7 +49,7 @@ Notre application Flask doit donc récupérer ces informations pour pouvoir effe
 ```python
 from flask import Flask, render_template, request # On pense à importer la fonction "request"
 
-@app.route("/play", methods=["GET", "POST"])
+@app.route("/play", methods=["POST"])
 def play():
     # La fonction play() peut à présent être employée avec une requpete GET (affichage classique dans le navigateur),
     # mais également pour les requêtes POST (envoi d'informations).
