@@ -18,8 +18,8 @@ Le principe du jeu à développer est le suivant :
 2. Le programme tire un mot aléatoire parmi une liste de mots que nous vous fournirons
 3. Le mot tiré est présenté à l'utilisateur sous forme d'indices, c'est à dire qu'on lui montre le nombre de caractères à trouver sans divulger les lettres du mot
 4. L'utilisateur dispose de 5 vies et voit un compteur de ses vies restantes à l'écran
-5. L'utilisateur voit une zone de saisie textuelle à l'écran
-6. Lorsque l'utilisateur saisit une lettre dans la zone de saisie, il peut cliquer sur le bouton "Envoyer" (seule la première lettre saisie est prise en compte)
+5. L'utilisateur voit un bouton pour chacune des lettres de l'alphabet à l'écran
+6. Lorsque l'utilisateur clique sur une lettre de l'alphabet, sa tentative est envoyée au programme
 7. Le programme contrôle la lettre saisie et détermine si elle fait partie ou non du mot à deviner
 8. Le résultat est affiché à l'utilisateur :
     - si sa tentative est incorrecte, on lui retire une vie et on affiche l'état de la potence
