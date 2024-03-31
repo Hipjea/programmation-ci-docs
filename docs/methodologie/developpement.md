@@ -60,6 +60,20 @@ Par la suite, on redémmare le serveur avant de rafraîchir la fenêtre du navig
 flask --app server run
 ```
 
+## Éviter de devoir redémarrer le serveur à chaque changement
+
+Le processus vu jusqu'ici impose de mettre fin au processus Flask (par la commande `CTRL + C`) et de le relancer pour qu'il prenne en compte les changements apportés aux templates et aux rendus.
+
+Il existe une option pour permettre le *hot reload* (rechargement à chaud) afin d'éviter de devoir faire tout cela à chaque modification.
+
+Il suffit de lancer le processus avec l'option `debug` par la commande suivante :
+
+```shell
+flask --app server --debug run
+```
+
+Pour la suite de vos travaux, il est donc conseillé d'utiliser cette commande là.
+
 ## Mettre en place un layout
 
 Cette étape va permettre de tirer profit d'un fichier partagé possédant la structure du document HTML commun à chacune des pages de l'application.
