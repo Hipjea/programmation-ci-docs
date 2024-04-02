@@ -161,3 +161,50 @@ Si on a fait les choses correctement, on doit donc avoir la balise `<h1 class="t
 
 `#FF0000` est le code couleur hexadécimal pour une nuance de rouge. Il en existe une multitude, que vous pouvez ajuster assez simplement via VSCode en cliquant sur le carré de couleur qui doit apparaître à côté du code HEX.
 
+<hr />
+
+On peut ajouter plusieurs classes à la même balise HTML si on souhaite apporter des particularités.
+
+Exemple :
+
+```html title="Template HTML"
+<h2 class="title red">Bienvenue</h2>
+<p>...</p>
+
+<h2 class="title blue underline">Démarrer</h2>
+<p>...</p>
+```
+
+```css title="Fichier static/style.css"
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+body {
+  font-family: Arial;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title {
+  color: #FF0000;
+}
+
+/* On peut cibler 2 classes appartenant à la même balise en enchaînant les sélecteurs de classes sans espace : */
+.title.underline {
+  text-decoration: underline;
+}
+
+.red {
+  color: #FF0000;
+}
+
+/* Le code hexadécimal n'est pas le seul code que l'on peut employer pour définir la couleur : */
+.blue {
+  color: blue;
+}
+```
